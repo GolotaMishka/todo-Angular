@@ -1,0 +1,9 @@
+<p>
+   <a routerLink=""><strong>Take me back</strong></a>.
+</p>
+
+<ul *ngFor="let goal of goals; let i = index;">
+  <li>
+    {{i+1}}.{{ goal }}
+  </li>
+</ul>
